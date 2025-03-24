@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const loginBtn = document.querySelector('.loginBtn');
   const welcomeSpan = document.querySelector('.home > span'); 
 
-  // localStorage에서 로그인 여부와 사용자 정보 가져오기
+  // 로그인 여부와 사용자 정보 가져오기
   const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
   const userDataString = localStorage.getItem('user');
   let userData = null;
