@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let userData = null;
 
   if (userDataString) {
-    userData = JSON.parse(userDataString); // { id, pw, username }
+    userData = JSON.parse(userDataString);
   }
 
   // 로그인 상태 "로그아웃" 버튼 + 환영 문구 표시
@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     welcomeSpan.textContent = `안녕하세요👋🏻 ${userData.username}님!`;
     loginBtn.textContent = '로그아웃';
 
-    // 로그아웃 버튼 누르면
     loginBtn.addEventListener('click', () => {
       localStorage.removeItem('isLoggedIn');
       location.reload();
