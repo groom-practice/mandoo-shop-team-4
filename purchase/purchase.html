@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../reset.css">
+  <link rel="stylesheet" href="./purchase.css">
+
+  <title>구매 확인 - 만두 굿즈샵</title>
+</head>
+<body>
+
+  <div class="main">
+    <h1>장바구니</h1>
+
+    <div class="productList">
+      <img class="productImg" alt="상품 이미지">
+      <div class="productName"></div>
+      <div class="productPrice"></div>
+    </div>
+
+    <div class="inputForm">
+      <h3 class="text">구매를 원하시면 아래 정보를 입력해주세요.</h3>
+      <input id="name" class="nameForm" type="text" placeholder="주문자 이름">
+      <input id="phoneNumber" class="nameForm" type="tel" placeholder="전화번호">
+      <input id="address" class="nameForm" type="text" placeholder="주소">
+      <button id="submit" onclick="buy()" type="submit">구매하기</button>
+    </div>
+
+  </div>
+
+ 
+
+  <script src="purchase.js"></script>
+</body>
+</html>
