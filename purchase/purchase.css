@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  border: 1px solid black;
+}
+
+h1 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+
+.list {
+  width: 80%;
+  border: 1px solid black;
+}
+
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 0;
+  border: 1px solid black;
+  width: 70%;
+}
+
+.text{
+  margin: 10px 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.nameForm {
+  width: 50%;
+  text-align: center;
+  padding: 15px 100px;
+  color: black;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+.inputForm > button {
+  font-size: 18px;
+  background-color: white;
+  margin: 20px 0;
+  padding: 10px 60px;
+  font-weight: 600;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.inputForm > button:hover {
+  background-color: yellow;
+}
+
+.productList {
+  margin: 5vw;
+  border: 1px solid black;
+}
+
+.productImg {
+  width: 40%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.productName {
+  text-align: center;
+}
+
+.productPrice {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
