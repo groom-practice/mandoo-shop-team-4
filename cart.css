@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 50%;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+  gap: 30px;
+}
+
+main h1 {
+  margin: 50 0 0 0;
+}
+
+/* 장바구니 목록 */
+.cart-list-container {
+  display: flex;
+  flex: 1;
+  height: 50%;
+  overflow: scroll;
+  width: 100%;
+  justify-content: center;
+}
+
+.cart-list-container ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.cart-list-container ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0px;
+}
+
+.cart-list-container ul li p {
+  margin: 0px;
+  font-size: 18px;
+}
+
+/* 버튼 */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-container button {
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 25px;
+}
