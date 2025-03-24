@@ -1,0 +1,19 @@
+/* 전체 영역 */
+body { margin: 0; padding: 0; font-family: sans-serif; background-color: #fafafa; }
+
+/* 컨테이너 */
+.login-container { width: 700px; margin: 0 auto; margin-top: 20vh; /* 화면 위에서 10% 정도 아래로 */ padding: 40px; background-color: #fff; /* 배경 흰색 */ border-radius: 8px; /* 모서리 둥글게 */ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 */ text-align: center; /* 내부 텍스트 중앙 정렬 */ }
+.login-container h1 { margin-bottom: 30px; font-size: 28px; }
+
+/* form */
+.login-container form { display: flex; flex-direction: column; }
+.login-container label { text-align: left; margin-bottom: 5px; font-weight: 600; }
+.login-container input[type="text"],
+.login-container input[type="password"] { padding: 10px; margin-bottom: 20px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; }
+.save-id-container { display: flex; align-items: center; justify-content: flex-start; margin-bottom: 20px; font-size: 14px; }
+.save-id-container input { margin-right: 5px; }
+.button-container { display: flex; justify-content: center; gap: 10px; }
+.login-btn { padding: 10px 20px; background-color: #5c4bdb; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+.login-btn:hover { background-color: #4b3cc2; }
+.sub-btn { padding: 10px 20px; border-radius: 4px; border: 1px solid #ddd; background-color: #fff; cursor: pointer; color: #333; }
+.sub-btn:hover { background-color: #f0f0f0; }
