@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <div class="signup-container">
+      <h1>Sign Up</h1>
+      <form id="signUpForm">
+        <label for="signUpId">ID</label>
+        <input type="text" id="signUpId" placeholder="아이디 (6자 이상)" />
+
+        <label for="signUpPw">Password</label>
+        <input type="password" id="signUpPw" placeholder="비밀번호 (8자 이상)" />
+
+        <label for="signUpUsername">Write your username</label>
+        <input type="text" id="signUpUsername" placeholder="사용하실 닉네임을 입력하세요"/>
+
+        <div class="button-container">
+          <button type="submit" class="signup-btn">Sign Up</button>
+          <button type="button" id="backBtn" class="sub-btn">Back</button>
+          <button type="button" id="homeBtn" class="sub-btn">Go home</button>
+        </div>
+      </form>
+    </div>
+
+    <script  src="./signup.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="../reset.css" />
+  <link rel="stylesheet" href="./login.css" />
+</head>
+<body>
+
+  <div class="login-container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="loginId">ID</label>
+      <input type="text" id="loginId" placeholder="아이디를 입력해주세요" />
+
+      <label for="loginPw">Password</label>
+      <input type="password" id="loginPw" placeholder="비밀번호를 입력해주세요" />
+
+      <div class="save-id-container">
+        <input type="checkbox" id="saveId" />
+        <label for="saveId">아이디 저장하기</label>
+      </div>
+
+      <div class="button-container">
+        <button type="submit" class="login-btn">Login</button>
+        <button type="button" id="signUpBtn" class="sub-btn">Sign Up</button>
+        <button type="button" id="backBtn" class="sub-btn">Back</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="./login.js"></script>
+</body>
+</html>
