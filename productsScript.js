@@ -23,7 +23,7 @@ function orderToCart(product) {
   localStorage.setItem('cartItems', JSON.stringify(cartItems));
   alert(`${product.productName}을 주문하시겠습니까?`);
 
-  window.location.href = "order.html";
+  window.location.href = "./purchase/purchase.html";
 }
 
 function removeFromCart(productId) {
